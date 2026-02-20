@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Calibration</title>
+</head>
+<body>
+
+<h2>Upload Video</h2>
+<input type="file" id="videoUpload" accept="video/*">
+
+<br><br>
+
+<video id="videoPlayer" width="640" controls></video>
+
+<br><br>
+
+<button onclick="captureFrame()">Select ROI</button>
+<button onclick="saveCoordinates()">Save Coordinates</button>
+
+<script src="{{ url_for('static', filename='js/calibration.js') }}"></script>
+
+</body>
+</html>
