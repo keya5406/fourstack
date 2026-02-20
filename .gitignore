@@ -1,0 +1,51 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# Flask
+instance/
+.webassets-cache
+
+# Logs
+*.log
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Firebase
+# ----------------------
+
+# Firebase service account keys
+*.json
+
+# Firebase local config
+.firebase/
+.firebaserc
+
+# Firebase emulator data
+firebase-debug.log
+firebase-debug.*.log
