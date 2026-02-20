@@ -31,6 +31,9 @@ htmlcov/
 # VS Code
 .vscode/
 
+# PyCharm
+.idea/
+
 # OS files
 .DS_Store
 Thumbs.db
